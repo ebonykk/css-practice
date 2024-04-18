@@ -1,23 +1,15 @@
-p {
-    color: black;
+.plain, 
+.bright {
+    font-size: 28px;
+    font-family: Helvetica, Times New Roman, sans-serif;
 }
 
-.odd {
-    background-color: pink;
-    font-family: Verdana, sans-serif;
-}
-
-#first {
-    color: blue;
-    font-size: 36px;
-}
-
-.odd.three {
-    font-size: 24px;
-}
-
-#second {
-    background-color: lightgreen;
-    font-size: 24px;
+.plain {
+    background-color: black;
+    color: white;
     font-weight: bold;
+}
+
+.bright {
+    background-color: yellow;
 }
