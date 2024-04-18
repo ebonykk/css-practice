@@ -1,15 +1,9 @@
-.plain, 
-.bright {
-    font-size: 28px;
-    font-family: Helvetica, Times New Roman, sans-serif;
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
 }
 
-.plain {
-    background-color: black;
-    color: white;
-    font-weight: bold;
-}
-
-.bright {
-    background-color: yellow;
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
 }
