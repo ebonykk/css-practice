@@ -45,6 +45,8 @@ body {
 
 .content {
   width: 100%;
+  display: flex;
+  
 }
 
 .sidebar, a {
