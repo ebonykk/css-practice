@@ -32,3 +32,10 @@ input {
   justify-content: space-between;
   padding: 20px;
 }
+
+.left-links, .right-links {
+  display: flex;
+  gap: 12px;
+  list-style-type: none;
+  text-decoration: none;
+}
