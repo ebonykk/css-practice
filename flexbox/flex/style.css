@@ -33,9 +33,21 @@ input {
   padding: 20px;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .left-links, .right-links {
   display: flex;
   gap: 12px;
   list-style-type: none;
-  text-decoration: none;
+  
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
 }
