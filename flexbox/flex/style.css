@@ -28,12 +28,19 @@ input {
   margin-bottom: 16px;
 }
 
-.header, .footer {
+.header {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
-  margin-right: 20px;
+  padding: 10px;
 }
+
+.footer {
+  background: #eee;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+
+ }
 
 a {
   text-decoration: none;
@@ -44,14 +51,17 @@ a {
   display: flex;
   gap: 12px;
   list-style-type: none;
-  
+  padding: 10px;
 }
 
 .content {
+  flex: 1;
   display: flex;
   justify-content: center;
   flex-direction: column;
-
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 100px;
 }
 
 .buttons {
@@ -64,3 +74,5 @@ a {
   display: flex;
   justify-content: center;
 }
+
+ 
